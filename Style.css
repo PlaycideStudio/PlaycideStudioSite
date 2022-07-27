@@ -1,0 +1,340 @@
+.title  
+{
+    display: flex;
+    justify-content: center;
+    
+
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: white;
+
+}
+
+.subtitle
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: white;
+}
+
+.description_title
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: white;
+}
+
+.description_title2
+{
+    display: flex;
+    justify-content: center;
+
+
+
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: white;
+}
+
+.description
+{
+    text-align: center;
+    white-space: nowrap;
+
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+
+    color: white;
+}
+
+body
+{
+    background-color: black;
+    background-image: url("Psychopath_Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.gamecontainer{
+    display: flex;
+    margin: auto;
+
+
+    justify-content: space-evenly;
+
+    justify-items: center;
+    align-items:center;
+
+
+    width:1000px;
+    height:250px;
+}
+
+.gameitem
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-color: white;
+    
+    width: 150px;
+    height:150px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.localization_container
+{
+    display: flex;
+    margin: auto;
+
+
+    justify-content: space-evenly;
+
+    justify-items: center;
+    align-items:center;
+
+
+    width:500px;
+    height:100px;
+}
+
+.eng
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-image: url("eng.png");
+    background-repeat:no-repeat;
+
+    width: 50px;
+    height:50px;
+}
+
+.kor
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-image: url("kor.png");
+    background-repeat:no-repeat;
+
+    width: 50px;
+    height:50px;
+}
+
+.descript_container
+{
+    display: grid;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+
+    justify-items: center;
+
+    background-image: url("paper.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    width:600px;
+    height:750px;
+}
+
+.descript_item
+{
+    right: 50%;
+    transform: translate(15%);
+
+    width:300px;
+    height:500px;
+}
+
+.descript_goback_but
+{
+    justify-content: right;
+
+    transform: translate(90%);
+
+    cursor: pointer;
+
+    background-image: url("back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width:100px;
+    height:100px;
+}
+
+.descript_img_frame
+{
+    transform: translate(-10%,10%);
+
+    background-image: url("Frame.png");
+    background-size: cover;
+    
+    width: 200px;
+    height:200px;
+
+
+}
+
+.descript_rockbreaker_img
+{
+
+    
+    background-image: url("Rockbreaker_Icon.png");
+    background-size: cover;
+    
+    width: 165px;
+    height:170px;
+
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.descript_psychopathtest_img
+{
+
+    
+    background-image: url("Psychopath_Icon.png");
+    background-size: cover;
+    
+    width: 165px;
+    height:170px;
+
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.description_titletxt_black
+{
+    text-align:left;
+    white-space: nowrap;
+
+
+    font-weight:bolder;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+
+    color: black;
+}
+
+.description_txt_black
+{
+    text-align:left;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Nanum Pen Script', cursive;
+
+    color: black;
+}
+
+.psychopath_icon
+{
+
+    display: flex;
+    margin: auto;
+
+    background-image: url("Psychopath_Icon.png");
+    background-size: cover;
+
+    cursor: pointer;
+
+    width: 140px;
+    height:140px;
+}
+
+.rockbreaker_icon
+{
+
+    display: flex;
+    margin: auto;
+
+    background-image: url("Rockbreaker_Icon.png");
+    background-size: cover;
+
+    cursor: pointer;
+
+    width: 140px;
+    height:140px;
+
+}
+
+
+
+/*특수효과*/
+.fade_in
+{
+
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
